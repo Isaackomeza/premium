@@ -1,115 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans');
-* {  
-    margin: 0;  
-    padding: 0;  
-    box-sizing: border-box; 
-    font-family: 'Work Sans', sans-serif;
-    color: #666666;
- }
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  color: #666666;
+}
 
- .header-right {
-    float: right;
-    display: flex;
-    align-items: center;
-  }
-  .header-right span{
-    color: #ADADAD;
-    text-transform: uppercase;
-    padding-top: 3px;
-    padding-right: 5px;
-  }
-  .header {
-    overflow: hidden;
-    background-color: white;
-    padding: 2% 7% 0;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,49);
-  }
+.header-right {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-  .section-one-left{
-    background-color: #EEEFEF;
-    padding: 2% 0 2% 7%;
-    width: 35%;
-  }
-  .section-one-middle{
-    background-color: #E5E4E4;
-    width: 58%;
-    padding: 2%;
-    text-align: center;
-  }
-  .section-one-middle p{
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #333333;
-    font-weight: bold;
-  }
-  .section-one-txt-one{
-    font-size: 18px;
-    margin: 4% 0 8% 0;
-  }
-  .section-one-txt-one span{
-    color: #FF5D27;
-    text-decoration: underline;
-    font-weight: bold;
-  }
-  .boxes{
-    display: flex;
-    justify-content: center;
-  }
-  .boxes section{
-    background-color: white;
-    border-radius: 10px;
-    margin: 2%;
-    width: 20%;
-    
-  }
-  .boxes span{
-    font-size: 45pt;
-    font-weight: bold;
-  }
-  .boxes :nth-child(1) span{
-    color: #FFC31F;
-  }
-  .boxes :nth-child(2) span{
-    color: #3E97FF;
-  }
-  .boxes :nth-child(3) span{
-    color: #26BE0A;
-  }
-  .dividers{
-    display: flex;
-    justify-content: center;
-  }
-  .dividers :nth-child(1){
-    border-bottom: 8px solid #FFC31F;
-    width: 24%;
-  }
-  .dividers :nth-child(2){
-    border-bottom: 8px solid #3E97FF;
-    width: 24%;
-  }
-  .dividers :nth-child(3){
-    border-bottom: 8px solid #26BE0A;
-    width: 24%;
-  }
-  .section-one-middle button{
-    width: 68%;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    background: white;
-    color: #FF5D27;
-    font-size: 21px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 3%;
-  }
-  sup{
-    color: #C1C1C1;
-    font-size: 19px;
-  }
+.header-right span {
+  color: #ADADAD;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-right: 5px;
+}
 
-  .section-two{
-    display: flex;
-  }
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 2% 7% 0;
+  -webkit-box-shadow: 0px 5px 5px 0px black;
+          box-shadow: 0px 5px 5px 0px black;
+}
 
-  
+.section-one-left {
+  background-color: #EEEFEF;
+  padding: 2% 0 2% 7%;
+  width: 35%;
+}
+
+.section-one-middle {
+  background-color: #E5E4E4;
+  width: 58%;
+  padding: 2%;
+  text-align: center;
+}
+
+.section-one-middle sup {
+  color: #C1C1C1;
+  font-size: 19px;
+}
+
+.section-one-middle p {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.section-one-txt-one {
+  font-size: 18px;
+  margin: 4% 0 8% 0;
+}
+
+.section-one-txt-one span {
+  color: #FF5D27;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxes section {
+  background-color: white;
+  border-radius: 10px;
+  margin: 2%;
+  width: 20%;
+}
+
+.boxes span {
+  font-size: 45pt;
+  font-weight: bold;
+}
+
+.boxes :nth-child(1) span {
+  color: #FFC31F;
+}
+
+.boxes :nth-child(2) span {
+  color: #3E97FF;
+}
+
+.boxes :nth-child(3) span {
+  color: #26BE0A;
+}
+
+.dividers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dividers :nth-child(1) {
+  border-bottom: 8px solid #FFC31F;
+  width: 24%;
+}
+
+.dividers :nth-child(2) {
+  border-bottom: 8px solid #3E97FF;
+  width: 24%;
+}
+
+.dividers :nth-child(3) {
+  border-bottom: 8px solid #26BE0A;
+  width: 24%;
+}
+
+.section-one-middle button {
+  width: 68%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+  color: #FF5D27;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+.section-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*isaaaaaaa*/
+  /*isaaaaaaa*/
+}
+
+.section-two .hide {
+  max-height: 0 !important;
+}
+
+.section-two .dropdown .title, .section-two .dropdown-two .title, .section-two .dropdown-three .title, .section-two .dropdown-four .title {
+  margin: 3% 0 4% 0;
+  width: 100%;
+  color: #FF5D27;
+  text-transform: uppercase;
+  size: 21px;
+  font-weight: bold;
+}
+
+.section-two .dropdown .title .fa-angle-right, .section-two .dropdown-two .title .fa-angle-right, .section-two .dropdown-three .title .fa-angle-right, .section-two .dropdown-four .title .fa-angle-right {
+  float: right;
+  margin-right: .7em;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.section-two .dropdown .menu, .section-two .dropdown-two .menu-two, .section-two .dropdown-three .menu-three, .section-two .dropdown-four .menu-four {
+  -webkit-transition: max-height .5s ease-out;
+  transition: max-height .5s ease-out;
+  max-height: 20em;
+  overflow: hidden;
+}
+
+.section-two .menu-two label, .section-two .menu-three label, .section-two .menu-four label {
+  margin: 3%;
+}
+
+.section-two .menu-two li {
+  margin: 3%;
+  size: 18px;
+}
+
+.section-two .menu-three div div ul li {
+  margin: 5%;
+  size: 18px;
+}
+
+.section-two .menu-four div div ul li {
+  margin: 3%;
+  size: 18px;
+}
+
+.section-two .dropdown, .section-two .dropdown-two, .section-two .dropdown-three, .section-two .dropdown-four {
+  margin-bottom: 10%;
+  padding-bottom: 7%;
+  border-bottom: 2px solid #CCCCCC;
+}
+
+.section-two ul {
+  list-style: none;
+}
+
+.section-two .pointerCursor:hover {
+  cursor: pointer;
+}
+
+.section-two .rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.section-two .filter-btns {
+  text-align: right;
+  margin: 4% 0;
+  /* background-color: #26BE0A; */
+}
+
+.section-two .filter-btns .filter-btn {
+  /* height: 40px; */
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333333;
+  background-color: #fff;
+  border: none;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.section-two .filter-btns .btn-with-bg {
+  background-color: #EEEEEE;
+  padding: 0.5em 1em;
+}
+
+.section-two .filter-btns .btn-without-bg {
+  border: 2px solid #EEEEEE;
+  font-weight: bold;
+  padding: 0.5em 1.5em;
+}
+/*# sourceMappingURL=style.css.map */

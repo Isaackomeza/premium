@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans');
+
+$lightGray: #EEEEEE;
+
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box; 
+    font-family: 'Work Sans', sans-serif;
+    color: #666666;
+ }
+
+ .header-right {
+    float: right;
+    display: flex;
+    align-items: center;
+    span{
+      color: #ADADAD;
+      text-transform: uppercase;
+      padding-top: 3px;
+      padding-right: 5px;
+    }
+  }
+ 
+  .header {
+    overflow: hidden;
+    background-color: white;
+    padding: 2% 7% 0;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,49);
+  }
+
+  .section-one-left{
+    background-color: #EEEFEF;
+    padding: 2% 0 2% 7%;
+    width: 35%;
+  }
+  .section-one-middle{
+    background-color: #E5E4E4;
+    width: 58%;
+    padding: 2%;
+    text-align: center;
+    sup{
+      color: #C1C1C1;
+      font-size: 19px;
+    }
+  }
+  .section-one-middle p{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+  }
+  .section-one-txt-one{
+    font-size: 18px;
+    margin: 4% 0 8% 0;
+  }
+  .section-one-txt-one span{
+    color: #FF5D27;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .boxes{
+    display: flex;
+    justify-content: center;
+  }
+  .boxes section{
+    background-color: white;
+    border-radius: 10px;
+    margin: 2%;
+    width: 20%;
+    
+  }
+  .boxes span{
+    font-size: 45pt;
+    font-weight: bold;
+  }
+  .boxes :nth-child(1) span{
+    color: #FFC31F;
+  }
+  .boxes :nth-child(2) span{
+    color: #3E97FF;
+  }
+  .boxes :nth-child(3) span{
+    color: #26BE0A;
+  }
+  .dividers{
+    display: flex;
+    justify-content: center;
+  }
+  .dividers :nth-child(1){
+    border-bottom: 8px solid #FFC31F;
+    width: 24%;
+  }
+  .dividers :nth-child(2){
+    border-bottom: 8px solid #3E97FF;
+    width: 24%;
+  }
+  .dividers :nth-child(3){
+    border-bottom: 8px solid #26BE0A;
+    width: 24%;
+  }
+  .section-one-middle button{
+    width: 68%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    color: #FF5D27;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+
+
+  .section-two{
+    display: flex;
+
+    /*isaaaaaaa*/
+    .hide {
+      max-height: 0 !important;
+  }
+  
+  .dropdown{
+    // border: 0.1em solid black;
+    // width: 10em;
+    // margin-bottom: 1em;
+  }
+  
+  .dropdown, .dropdown-two, .dropdown-three, .dropdown-four{
+    .title{
+      margin: 3% 0 4% 0;
+      // margin: .3em .3em .3em .3em;	
+      width: 100%;
+      color: #FF5D27;
+      text-transform: uppercase;
+      size: 21px;
+      font-weight: bold;
+    }
+  }
+  
+  .dropdown, .dropdown-two, .dropdown-three, .dropdown-four{
+    .title {
+      .fa-angle-right{
+        float: right;
+        margin-right: .7em;
+        transition: transform .3s;
+      }
+    }
+  }
+  
+  .dropdown .menu, .dropdown-two .menu-two, .dropdown-three .menu-three, .dropdown-four .menu-four{
+    transition: max-height .5s ease-out;
+    max-height: 20em;
+    overflow: hidden;
+  }
+  // .dropdown-two .menu-two{
+  //   transition: max-height .5s ease-out;
+  //   max-height: 20em;
+  //   overflow: hidden;
+  // }
+.menu-two, .menu-three, .menu-four {
+  label{
+    margin: 3%;
+  }
+}
+.menu-two {
+  li{
+    margin: 3%;
+    size: 18px;
+  }
+}
+.menu-three{
+  div div ul li{
+    margin: 5%;
+    size: 18px;
+  }
+}
+
+.menu-four{
+  div div ul li{
+    margin: 3%;
+    size: 18px;
+  }
+}
+.dropdown, .dropdown-two, .dropdown-three, .dropdown-four{
+  margin-bottom: 10%;
+  padding-bottom: 7%;
+  border-bottom: 2px solid #CCCCCC;
+}
+ul{
+  list-style: none
+}
+  .pointerCursor:hover{
+    cursor: pointer;
+  }
+  
+  .rotate-180{
+    transform: rotate(180deg);
+  }
+    /*isaaaaaaa*/
+
+    .filter-btns{
+      text-align: right;
+      margin: 4% 0;
+
+      .filter-btn{
+        /* height: 40px; */
+        border-radius: 8px;
+        font-size: 16px;
+        color: #333333;
+        background-color: #fff;
+        border: none;
+        margin-left: 1em;
+        cursor: pointer;
+      }
+    .btn-with-bg{
+      background-color: $lightGray;
+      padding: 0.5em 1em;
+    }
+    .btn-without-bg{
+      border: 2px solid $lightGray;
+      font-weight: bold;
+      padding: 0.5em 1.5em;
+    
+    }
+      /* background-color: #26BE0A; */
+    }
+
+  }
+  
+
+  
+  
