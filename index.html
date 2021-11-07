@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-    <!-- <link src="scripts/script.js"> -->
 
     <title>Premium</title>
 </head>
@@ -21,13 +20,13 @@
         </section>
     </div>
 
-    <div style="display: flex;">
+    <div class="section-one">
         <div class="section-one-left">
             <img src="./assets/img/xkm.PNG" alt="xkm">
             <p class="section-one-txt-one">I costi chilometrici relativi alle auto <br> provate
                 dal 2016 ad oggi. <span>Più
                     informazioni</span></p>
-            <section style="display: flex; align-items: center;">
+            <section class="prezzi" style="display: flex; align-items: center;">
                 <img src="./assets/img/popup.png" alt="popup-btn">
                 <p>Prezzi aggiornati al 08/06/2021</p>
             </section>
@@ -77,11 +76,8 @@
         </div>
     </div>
 
-    <!--Section two-->
-
     <div class="section-two">
-        <!--Section two meeeeee-->
-        <div style="width: 35%; padding: 0 2% 0 7%;">
+        <div class="section-two-left">
             <section style="display: flex; align-items: center; margin: 4% 0 4% 0;">
                 <img src="./assets/img/submenu.PNG" alt="menu-icon">
                 <h1>Filtra auto</h1>
@@ -104,7 +100,7 @@
 
                 <div class='menu-two pointerCursor'>
                     <ul>
-                        <li> <input type="radio" name="tutte" id=""> <label for="tutte">Tutte </label><br></li>
+                        <li> <input checked type="radio" name="tutte" id=""> <label for="tutte">Tutte </label><br></li>
                         <li><input type="checkbox" name="benzina" id=""><label for="benzina">Benzina <span
                                     style="color: #FF5D27;">(123)</span> </label></li>
                         <li><input type="checkbox" name="benzina" id=""><label for="gasolio">Gasolio <span>(71)</span>
@@ -140,7 +136,8 @@
                     <div style="display: flex; justify-content: space-between;">
                         <div style="width: 50%;">
                             <ul>
-                                <li> <input type="radio" name="tutte" id=""> <label for="tutte">Tutte </label><br></li>
+                                <li> <input checked type="radio" name="tutte" id=""> <label for="tutte">Tutte
+                                    </label><br></li>
                                 <li><input type="checkbox" name="benzina" id=""><label for="benzina">City Car</label>
                                 </li>
                                 <li><input type="checkbox" name="benzina" id=""><label for="gasolio">Berlina
@@ -176,7 +173,8 @@
                     <div style="display: flex; justify-content: space-between;">
                         <div style="width: 50%;">
                             <ul>
-                                <li> <input type="radio" name="tutte" id=""> <label for="tutte">Tutte </label><br></li>
+                                <li> <input checked type="radio" name="tutte" id=""> <label for="tutte">Tutte
+                                    </label><br></li>
                                 <li><input type="checkbox" name="" id=""><label for="">Alfa Romeo</label>
                                 </li>
                                 <li><input type="checkbox" name="" id=""><label for="">Alpine
@@ -258,11 +256,7 @@
             </div>
 
         </div>
-        <!--Section two John Doe-->
-        <div style="width: 58%;">
-            <!-- <h1 id='ipsum'>
-
-            </h1> -->
+        <div class="section-two-middle">
             <div class="filter-btns">
                 <span>Ordina per</span>
                 <button class="filter-btn btn-without-bg">
@@ -277,46 +271,175 @@
                 <button class="filter-btn btn-with-bg">
                     Marca
                 </button>
-                <!-- <button>Hello</button>
-                <button>Hello</button>
-                <button>Hello</button> -->
-            </div>
-            <div class="shop">
 
             </div>
-            <!-- <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or
-                web designs. The passage is attributed to an unknown</p> -->
+            <div class="shop-wrapper">
+                <div class="shop"> </div>
+                <button class="shop-btn">carica altre auto</button>
+            </div>
+
         </div>
         <div style="width: 7%;">
 
         </div>
     </div>
-    <footer style="background-color: #333333; padding: 3% 3% 3% 7%;">
-        <div style="display: flex; justify-content: space-between; border-bottom: 1px solid white; padding-bottom: 2%;">
-            <div style="display: flex; align-items: center;">
-                <p style="color: #FFFFFF; font-size: 30px; font-weight: bold; padding-right: 5%;">Quattroruote</p>
+    <footer class="footer">
+        <div class="footer-section-one">
+            <div class="footer-sub-section-one">
+                <p class="footer-big-title">Quattroruote</p>
                 <span
-                    style="color: #C1C1C1; border-right: 2px solid #C1C1C1;  padding: 0 2%; font-size: 20px;">Sitemap</span>
+                    style="color: #C1C1C1; border-right: 2px solid #C1C1C1;  padding: 0 2%; font-size: 17px;">Sitemap</span>
                 <span
-                    style="color: #C1C1C1; border-right: 2px solid #C1C1C1;  padding: 0 2%; font-size: 20px;">Contantti</span>
-                <span style="color: #C1C1C1;  padding: 0 2%; font-size: 20px;">Redazione</span>
+                    style="color: #C1C1C1; border-right: 2px solid #C1C1C1;  padding: 0 2%; font-size: 17px;">Contantti</span>
+                <span style="color: #C1C1C1;  padding: 0 2%; font-size: 17px;">Redazione</span>
             </div>
-            <div>
+            <div class="footer-icons">
                 <img src="https://img.icons8.com/ios-glyphs/30/C1C1C1/youtube-play.png" />
                 <img src="https://img.icons8.com/material-outlined/30/C1C1C1/facebook-f.png" />
                 <img src="https://img.icons8.com/ios-glyphs/30/C1C1C1/twitter.png" />
                 <img src="https://img.icons8.com/windows/30/C1C1C1/instagram-new.png" />
-                <img <img src="https://img.icons8.com/windows/30/C1C1C1/rss-logo.png" />
+                <img src="https://img.icons8.com/windows/30/C1C1C1/rss-logo.png" />
             </div>
         </div>
         <div style="text-align: center;  padding-top: 2%;">
-            <p style="color: #C1C1C1; size: 10px;">Editoriale Domus SpA Via G. Mazzocchi, 1/3 20089 Rozzano (Mi) -
+            <p style="color: #C1C1C1; font-size: 13px;">Editoriale Domus SpA Via G. Mazzocchi, 1/3 20089 Rozzano (Mi) -
                 Codice fiscale, partita IVA e iscrizione
                 al Registro delle Imprese di Milano n. 07835550158 R.E.A. di Milano n. 1186124 - Capitale sociale
                 versato € 5.000.000,00 - Tutti i diritti riservati - All rights reserved - Informativa Privacy -
                 Informativa Cookie completa - Lic. SIAE n. 4653/I/908</p>
         </div>
     </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="model-element"></div>
+        </div>
+    </div>
+    <div id="cambioModal" class="modal">
+        <div class="modal-content" style="text-align: center;">
+            <span class="close">&times;</span>
+            <div class="model-element">
+                <h1 style="color: #333333;">Dove isi l'autto?</h1>
+                <p style="margin: 4% 0;">Utilizza i <span style="color: #FF5D27;">cursori</span> per modificare le
+                    percentuali relative al
+                    tipo di
+                    percorso <br> che fai abitualmente, una
+                    volta impostati i valori clicca su <span style="color: #FF5D27;">Ricalcola</span></p>
+                <div class="section-one-middle section-one-middle-model"
+                    style="width: 100%; border-radius: 20px; padding: 3%;">
+                    <section class="dividers">
+                        <section></section>
+                        <section></section>
+                        <section></section>
+                    </section>
+                    <section class="boxes">
+                        <section>
+                            <span>
+                                33<sup>%</sup>
+                            </span>
+                            <p>
+                                Città
+                            </p>
+                        </section>
+
+                        <section>
+                            <span>
+                                33<sup>%</sup>
+                            </span>
+                            <p>
+                                Statale
+                            </p>
+                        </section>
+                        <section>
+                            <span>
+                                33<sup>%</sup>
+                            </span>
+                            <p>
+                                Autostrada
+                            </p>
+                        </section>
+
+                    </section>
+
+                    <button class="section-one-middle-btn" style="color: #ADADAD;">Ricalcola</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="prezziModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="model-element">
+                <h1>Info prezzi</h1>
+                <p style="margin: 3% 0 7% 0;">Il prezzo dei carburanti è tratto dal Ministero dello Sviluppo economico
+                    il giorno <b>09/06/20121</b>
+                </p>
+                <h1 style="font-size: 21px; margin-bottom: 2%;">TERMICHE</h1>
+
+                <div style="display: flex; justify-content: space-between;">
+                    <div
+                        style="display: flex; width: 48%; justify-content: space-between; padding-bottom: 2%; border-bottom: 1px solid #CCCCCC;">
+
+                        <section style="display: flex; align-items: center; ">
+                            <section
+                                style="height: 12px; width: 20px; background-color: #E20000; border-radius: 10px; ">
+                            </section>&nbsp;
+                            <p>Benzina</p>
+                        </section>
+                        <section>
+                            <b>1,487</b> €/litro
+                        </section>
+                    </div>
+                    <div
+                        style="display: flex; width: 48%; justify-content: space-between; padding-bottom: 2%; border-bottom: 1px solid #CCCCCC;">
+
+                        <section style="display: flex; align-items: center; ">
+                            <section
+                                style="height: 12px; width: 20px; background-color: #005999; border-radius: 10px; ">
+                            </section>&nbsp;
+                            <p>Gpl</p>
+                        </section>
+                        <section>
+                            <b>0,617</b> €/litro
+                        </section>
+                    </div>
+                </div>
+                <h1 style="font-size: 21px; margin: 3% 0 2% 0;">IBRIDE PLUG-IN</h1>
+
+                <div style="display: flex; justify-content: space-between;">
+                    <div
+                        style="display: flex; width: 48%; justify-content: space-between; padding-bottom: 2%; border-bottom: 1px solid #CCCCCC;">
+
+                        <section style="display: flex; align-items: center; ">
+                            <section
+                                style="height: 12px; width: 20px; background-color: #008B39; border-radius: 10px; ">
+                            </section>&nbsp;
+                            <p>ric. domestica</p>
+                        </section>
+                        <section>
+                            <b>0,20</b> €/litro
+                        </section>
+                    </div>
+                    <div
+                        style="display: flex; width: 48%; justify-content: space-between; padding-bottom: 2%; border-bottom: 1px solid #CCCCCC;">
+
+                        <section style="display: flex; align-items: center; ">
+                            <section
+                                style="height: 12px; width: 20px; background-color: #009EE3; border-radius: 10px; ">
+                            </section>&nbsp;
+                            <p>ric.</p>
+                        </section>
+                        <section>
+                            <b>0,20</b> €/litro
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script type="text/javascript" src="./scripts/script.js"></script>
 </body>
 
